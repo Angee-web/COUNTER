@@ -28,6 +28,7 @@ const StudentForm = () => {
 
   return (
     <div>
+        <h3>Student Update Form</h3>
         <form onSubmit={updateStudent}>
         <input
           type="text"

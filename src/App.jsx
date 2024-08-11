@@ -2,6 +2,7 @@
 import Count from  "./pages/Count"
 import "./App.css";
 import StudentForm from "./pages/StudentForm";
+import Message from "./pages/Message";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
       <Count />
       <StudentForm />
+      <Message />
     </div>
   );
 }
